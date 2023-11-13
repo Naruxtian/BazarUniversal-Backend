@@ -26,7 +26,8 @@
     "morgan": "^1.10.0",
     "nodemon": "^3.0.1",
     "path": "^0.12.7",
-    "tsc": "^2.0.4"
+    "tsc": "^2.0.4",
+    "typescript": "^5.2.2"
   },
   "devDependencies": {
     "@types/cookie-parser": "^1.4.6",
