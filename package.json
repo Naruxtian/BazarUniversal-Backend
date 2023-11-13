@@ -8,8 +8,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "postinstall": "npm run build",
-    "start": "node build/server.ts",
+    "start": "nodemon server.ts",
     "dev": "nodemon server.ts"
   },
   "author": "Christian Muñoz",
