@@ -36,7 +36,7 @@ export const searchItems = asyncHandler(async (req: Request, res: Response, next
         const querySnapshot = await getDocs(queri);
         const items: any[] = [];
         querySnapshot.forEach((doc) => {
-            items.push({ ...doc.data(), id: doc.id });
+            items.push({ ...doc.data()});
         });
 
         if(q == undefined) {
