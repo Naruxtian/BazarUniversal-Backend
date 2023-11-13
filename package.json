@@ -7,7 +7,6 @@
     "node": "16.x"
   },
   "scripts": {
-    "build": "npm install typescript -g && npm install tsc && tsc",
     "start": "node server.js",
     "dev": "nodemon server.ts"
   },
