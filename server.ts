@@ -16,7 +16,7 @@ class Server{
     }
 
     private config(): void {
-        this.app.set('port', 3000);
+        this.app.set('port', process.env.PORT || 3000);
         this.app.use(cors({ origin: '*' }));
         this.app.use(helmet());
         this.app.use(morgan('dev'));
