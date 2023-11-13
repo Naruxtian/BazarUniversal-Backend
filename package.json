@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Backend para la pwa de bazar universal",
   "main": "server.ts",
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
     "build": "tsc",
     "start": "node build/server.ts",
